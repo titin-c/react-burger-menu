@@ -1,0 +1,75 @@
+div#cart-cont {
+    width: 100%;
+    position: absolute;
+    background: $background-opposite;
+    top: 86px;
+    color:$background-dark;
+    z-index: 99999;
+    left: 0px;
+
+    -webkit-transition: all 3ms ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.cart-cerrado div#cart-cont {
+    height: 0 !important;
+    background-color: $secondary8a;
+    overflow: hidden;
+}
+div#cart-head,  div#cart-canvas,  div#cart-footer {
+    -webkit-transition: all 3ms ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.cart-cerrado div#cart-head, .cart-cerrado div#cart-canvas, .cart-cerrado div#cart-footer {
+    height: 0 !important;
+}
+
+div#cart-head {
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+}
+div#cart-canvas {
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+    overflow-y: auto;
+}
+.cart-total {
+    padding: 30px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+span.iva {
+    font-size: .8em;
+    opacity: .8;
+}
+.cart-btns {
+    padding: 10px;
+}
+
+a.btn {
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background: $background-opposite;
+    margin-bottom: 10px;
+    border: solid 1px #ddd;
+    color: #333;
+}
+a.btn.btn-primary {
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(56, 198, 77);
+    margin-bottom: 10px;
+    border: solid 1px rgb(56, 198, 77);;
+    color: $background-opposite;
+}
+.cart-apoyo {
+    padding: 10px;
+}
