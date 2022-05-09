@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3493ade.css",
+    "main.js": "/static/js/main.b11fb205.js",
+    "index.html": "/index.html",
+    "static/media/lupa-icon.svg": "/static/media/lupa-icon.93dea1b6160acbab74ff.svg",
+    "main.e3493ade.css.map": "/static/css/main.e3493ade.css.map",
+    "main.b11fb205.js.map": "/static/js/main.b11fb205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3493ade.css",
+    "static/js/main.b11fb205.js"
+  ]
+}
