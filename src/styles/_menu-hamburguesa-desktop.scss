@@ -110,7 +110,10 @@ ul.menu.children {
     margin-right: 15px;
   }
   li.page_item > button {
-    padding-right: 5px !important;
+    min-width: fit-content;
+  }
+  li.page_item.page_item_has_children > button {
+    padding-right: 5px;
   }
   li.page_item > span.sub-nav-toggle {
     margin-right: 8px;
@@ -129,7 +132,7 @@ height: 16px;
   }
   span.item-label{
     right: unset;
-    left: calc(100% - 36px);
+    left: calc(100% - 20px);
     top: 7px;
     height: 15px;
     width: 15px;

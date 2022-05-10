@@ -447,12 +447,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary-ligh
     opacity: 1;
   }
 }
-li.page_item:hover a .item-label {
+li.page_item:hover button .item-label {
   color:$background-opposite;
   background: $submenu1-bg;
 
 }
-li.page_item:hover > a  .icon-item, li.page_item:hover > button .icon-item{
+li.page_item:hover > button  .icon-item, li.page_item:hover > button .icon-item{
   margin-right: 15px;
   color:$background-opposite
 }

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6d6fd38.css",
+    "main.css": "/static/css/main.385c9d6d.css",
     "main.js": "/static/js/main.41a124c8.js",
     "index.html": "/index.html",
     "static/media/lupa-icon.svg": "/static/media/lupa-icon.93dea1b6160acbab74ff.svg",
-    "main.c6d6fd38.css.map": "/static/css/main.c6d6fd38.css.map",
+    "main.385c9d6d.css.map": "/static/css/main.385c9d6d.css.map",
     "main.41a124c8.js.map": "/static/js/main.41a124c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d6fd38.css",
+    "static/css/main.385c9d6d.css",
     "static/js/main.41a124c8.js"
   ]
 }
