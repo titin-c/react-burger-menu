@@ -12,12 +12,12 @@ function App() {
             <span>B-</span>MENU
           </div>
           <div className="home">
-            <h1>Responsive <b>Burguer menu</b> javascript y css</h1>
-            <p>Este ejercicio es un menú tipo hamburguesa muy intuitivo, lo más destacable es que tiene submenús con categorías y subcategorías infinitas, hecho con React App.</p>
+            <h1>Responsive <b>Burguer menu</b> React y Scss</h1>
+            <p className='lead'>Este ejercicio es un menú tipo hamburguesa muy intuitivo, lo más destacable es que tiene submenús con <b>categorías y subcategorías infinitas</b>, hecho con Reacty Sass.</p>
             <p>En muchas ocasiones por necesidades del proyecto necesitas estructurar los contenidos en una innumerable cantidad de categorías y subcategorías.</p>
             <p>Normalmente la navegación móvil en este tipo de sitios se complica y se hace laberíntica al desplegar los submenús hacia abajo con un scroll eterno.</p>
             <p>Por lo que una navegación de pantallas que se desplazan horizontalmente te ayuda a organizar visual y mentalmente la estructura y donde estás en cada momento.</p>
-            <p>burguer menu, React, css, html...</p>
+            <p>burguer menu, React, Scss, html...</p>
             
             
             <p>By <i>Titín Colomer</i></p>

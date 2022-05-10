@@ -59,11 +59,13 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <a href="/#">
+        <button
+            type="button"
+          > 
           {items.icon ? <img src={items.icon} className="icon-item" height='15' width='15' alt={items.title} /> : <span className="icon-item">●</span>}
           <span className="item-title">{items.title}</span>
           {items.alerts && <span className="item-label">{items.alerts}</span>}
-          </a>
+          </button>
       )}
     </li>
   );

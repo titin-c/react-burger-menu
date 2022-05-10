@@ -356,7 +356,7 @@ span.sub-nav-toggle {
     -o-transition: all .3s ease;
     transition: all .3s ease;}
   .volver-toggle:hover svg{fill:$background;}
-  .menu-burguer li.volver-toggle a {
+  .menu-burguer li.volver-toggle button {
     text-decoration: none;
     color: $background-opposite;
     width: unset;
@@ -469,7 +469,7 @@ li.page_item  .icon-item {
     transition: all .5s ease;
     
 }
-li.volver-toggle a .icon-item {
+li.volver-toggle button .icon-item {
   width: 20px;
   height: 20px;
   margin-right: 9px;
