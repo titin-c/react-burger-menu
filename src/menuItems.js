@@ -1,11 +1,11 @@
 export const menuItems = [
   {
     title: "Dashboard",
-    icon: "/assets/ic_dashboard.svg"
+    icon: "./assets/ic_dashboard.svg"
   },
   {
     title: "Menu Subcategoría",
-    icon: "/assets/ic_chat.svg",
+    icon: "./assets/ic_chat.svg",
     submenu: [
       {
         title: "Subcategoría uno",
@@ -17,7 +17,7 @@ export const menuItems = [
   },
   {
     title: "Menu multinivel",
-    icon: "/assets/ic_calendar.svg",
+    icon: "./assets/ic_calendar.svg",
     submenu: [
       {
         title: "Nivel 2a",
@@ -27,11 +27,11 @@ export const menuItems = [
         submenu: [
           {
             title: "Nivel 2b 1",
-            icon: "/assets/ic_user.svg",
+            icon: "./assets/ic_user.svg",
           },
           {
             title: "Nivel 2b 2",
-            icon: "/assets/ic_mail.svg",
+            icon: "./assets/ic_mail.svg",
             submenu: [
               {
                 title: "Nivel 2b 2a"
@@ -53,20 +53,20 @@ export const menuItems = [
   },
   {
     title: "Analytics",
-    icon: "/assets/ic_analytics.svg"
+    icon: "./assets/ic_analytics.svg"
   },
   {
     title: "Chat",
-    icon: "/assets/ic_chat.svg",
+    icon: "./assets/ic_chat.svg",
     alerts: 3
   },
   {
     title: "Mail",
-    icon: "/assets/ic_mail.svg"
+    icon: "./assets/ic_mail.svg"
   },
   {
     title: "User",
-    icon: "/assets/ic_user.svg"
+    icon: "./assets/ic_user.svg"
   },
   
 ];
